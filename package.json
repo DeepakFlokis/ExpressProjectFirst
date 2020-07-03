@@ -1,0 +1,29 @@
+{
+  "name": "myexpressproject",
+  "version": "1.0.0",
+  "description": "myFirstExpressProject",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepakFlokis/ExpressProjectFirst.git"
+  },
+  "author": "Deepak kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepakFlokis/ExpressProjectFirst/issues"
+  },
+  "homepage": "https://github.com/DeepakFlokis/ExpressProjectFirst#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "moment": "^2.27.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
